@@ -13,7 +13,8 @@ public class Calculadora {
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
             System.out.println("4. División");
-            System.out.print("Elige una operación (1-4): ");
+            System.out.println("5. Potencia");
+            System.out.print("Elige una operación (1-5): ");
             operacion = scanner.nextInt();
             
 			System.out.print("Ingresa el primer número: ");
@@ -42,6 +43,10 @@ public class Calculadora {
                     } else {
                         System.out.println("Error: No se puede dividir entre cero.");
                     }
+                }
+                case 5 -> {
+                    resultado = Math.pow(num1, num2);
+                    System.out.println("Resultado: " + num1 + " ^ " + num2 + " = " + resultado);
                 }
                 default -> System.out.println("Opción no válida.");
             }
