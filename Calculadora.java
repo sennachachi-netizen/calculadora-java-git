@@ -10,7 +10,11 @@ public class Calculadora {
         try (Scanner scanner = new Scanner(System.in)) {
             double num1, num2 = 0, resultado;
             int operacion;
+<<<<<<< HEAD
             System.out.println("=== ¡BIENVENIDO A LA CALCULADORA! ===");
+=======
+            System.out.println("=== ¡HOLA! BIENVENIDO A LA CALCULADORA ===");
+>>>>>>> cambio-saludo
             System.out.println("1. Suma");
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
