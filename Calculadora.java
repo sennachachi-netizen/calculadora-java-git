@@ -1,7 +1,8 @@
 // Versión 1.0 - Práctica de Entornos de Desarrollo
 import java.util.Scanner;
-//bienvenidos 
-//modificacion de la calculadora 
+//bienvenidos a calculadora 
+
+
 public class Calculadora {
     public static void main(String[] args) {
 
