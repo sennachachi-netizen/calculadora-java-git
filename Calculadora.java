@@ -15,7 +15,8 @@ public class Calculadora {
 =======
             System.out.println("=== ¡HOLA! BIENVENIDO A LA CALCULADORA ===");
 >>>>>>> cambio-saludo
-            System.out.println("1. Suma");
+            System.out.println("1. Suma);
+            //cambio de suma a resta 
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
             System.out.println("4. División");
